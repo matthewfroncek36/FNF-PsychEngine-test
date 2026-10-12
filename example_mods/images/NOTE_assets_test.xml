@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets_test.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="arrowRIGHT0000" x="158" y="223" width="158" height="161" frameX="2" frameY="2" frameWidth="154" frameHeight="157"/>
+	<SubTexture name="red0000" x="0" y="223" width="158" height="161" frameX="2" frameY="2" frameWidth="154" frameHeight="157"/>
+	<SubTexture name="red hold end0000" x="610" y="223" width="54" height="68" frameX="2" frameY="2" frameWidth="50" frameHeight="64"/>
+	<SubTexture name="red hold piece0000" x="610" y="291" width="54" height="48" frameX="2" frameY="2" frameWidth="50" frameHeight="44"/>
+	<SubTexture name="right confirm0000" x="444" y="0" width="221" height="222" frameX="1" frameY="-3" frameWidth="226" frameHeight="230"/>
+	<SubTexture name="right confirm0001" x="223" y="0" width="221" height="222" frameX="1" frameY="-3" frameWidth="226" frameHeight="230"/>
+	<SubTexture name="right confirm0002" x="0" y="0" width="223" height="223" frameX="1" frameY="-2" frameWidth="226" frameHeight="230"/>
+	<SubTexture name="right confirm0003" x="0" y="0" width="223" height="223" frameX="1" frameY="-2" frameWidth="226" frameHeight="230"/>
+	<SubTexture name="right press0000" x="468" y="223" width="142" height="145" frameX="-2" frameY="-3" frameWidth="148" frameHeight="152"/>
+	<SubTexture name="right press0001" x="468" y="223" width="142" height="145" frameX="-2" frameY="-3" frameWidth="148" frameHeight="152"/>
+	<SubTexture name="right press0002" x="316" y="223" width="152" height="155" frameX="2" frameY="1" frameWidth="148" frameHeight="152"/>
+	<SubTexture name="right press0003" x="316" y="223" width="152" height="155" frameX="2" frameY="1" frameWidth="148" frameHeight="152"/>
+</TextureAtlas>
