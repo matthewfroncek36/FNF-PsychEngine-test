@@ -6,6 +6,7 @@ import shaders.RGBPalette;
 import shaders.RGBPalette.RGBShaderReference;
 import objects.StrumNote;
 import flixel.math.FlxRect;
+import flixel.graphics.frames.FlxFrame;
 
 using StringTools;
 
