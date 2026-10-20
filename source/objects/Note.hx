@@ -113,10 +113,11 @@ class Note extends FlxSprite {
 	public var rotationFallback:Bool = false;
 	public var fallbackRotation:Float = 0;
 
-	public static final directionRotations:Array<Float> = [180, // Purple / Left
-		90, // Blue / Down
-		- 90, // Green / Up
-		0 // Red / Right
+	public static final directionRotations:Array<Float> = [
+		180, // Left
+    	90,  // Down
+    	-90, // Up
+    	0    // Right
 	];
 
 	public var offsetX:Float = 0;
