@@ -113,11 +113,10 @@ class Note extends FlxSprite {
 	public var rotationFallback:Bool = false;
 	public var fallbackRotation:Float = 0;
 
-	public static final directionRotations:Array<Float> = [
-		180, // Left
-    	90,  // Down
-    	-90, // Up
-    	0    // Right
+	public static final directionRotations:Array<Float> = [180, // Left
+		90, // Down
+		- 90, // Up
+		0 // Right
 	];
 
 	public var offsetX:Float = 0;
@@ -556,7 +555,9 @@ class Note extends FlxSprite {
 		var angleDir = strumDirection * Math.PI / 180;
 
 		if (copyAngle) {
-			angle = strumDirection - 90 + strumAngle + offsetAngle + (rotationFallback ? fallbackRotation : 0);
+			angle = strumDirection - 90 + strumAngle + offsetAngle if (copyAngle) {
+				angle = strumDirection - 90 + strumAngle + offsetAngle;
+		}
 		}
 
 		if (copyAlpha)
