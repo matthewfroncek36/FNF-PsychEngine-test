@@ -555,9 +555,7 @@ class Note extends FlxSprite {
 		var angleDir = strumDirection * Math.PI / 180;
 
 		if (copyAngle) {
-			angle = strumDirection - 90 + strumAngle + offsetAngle if (copyAngle) {
-				angle = strumDirection - 90 + strumAngle + offsetAngle;
-		}
+			angle = strumDirection - 90 + strumAngle + offsetAngle;
 		}
 
 		if (copyAlpha)
