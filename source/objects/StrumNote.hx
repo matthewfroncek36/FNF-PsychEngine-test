@@ -132,7 +132,7 @@ class StrumNote extends FlxSprite {
 
 			var confirmPrefixes:Array<String> = ['left confirm', 'down confirm', 'up confirm', 'right confirm'];
 
-			var wanted:Int = Math.abs(noteData) % 4;
+			var wanted:Int = Std.int(Math.abs(noteData) % 4);
 			var base:Int = wanted;
 
 			// Find the requested direction first.
